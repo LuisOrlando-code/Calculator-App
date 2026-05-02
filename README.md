@@ -1,51 +1,41 @@
 🧮 Calculadora Glassmorphism
-Una calculadora web elegante y funcional construida con HTML5, CSS3 y JavaScript vanilla. El diseño destaca por su estética moderna de "vidrio esmerilado" (Glassmorphism) lograda mediante transparencias y filtros de desenfoque.
+
+Una calculadora web elegante y funcional desarrollada con HTML5, CSS3 y JavaScript vanilla. Su diseño destaca por una interfaz moderna basada en el estilo Glassmorphism, que simula un efecto de vidrio esmerilado mediante transparencias y desenfoques.
 
 🚀 Características
-Diseño Moderno: Interfaz basada en la tendencia Glassmorphism con degradados vibrantes y efectos de desenfoque (backdrop-filter).
-
-Totalmente Responsiva: Se adapta a diferentes tamaños de pantalla manteniendo su estructura.
-
-Operaciones Básicas: Suma, resta, multiplicación y división.
-
-Funciones Especiales:
-
-Botón de limpieza total (C).
-
-Botón de retroceso/borrado carácter por carácter (←).
-
-Interacción Fluida: Feedback visual al pasar el ratón (hover) y al hacer clic (active) en los botones.
-
+✨ Diseño moderno: Interfaz atractiva con degradados y efecto blur (backdrop-filter).
+📱 Totalmente responsiva: Adaptable a distintos tamaños de pantalla.
+➕ Operaciones básicas: Suma, resta, multiplicación y división.
+⚙️ Funciones especiales:
+C → Limpieza total
+← → Borrado carácter por carácter
+🎯 Interacción fluida: Efectos visuales al pasar el mouse (hover) y al hacer clic (active).
 🛠️ Tecnologías utilizadas
-HTML5: Estructura semántica.
+HTML5: Estructura semántica del proyecto
+CSS3: Diseño visual, Flexbox y efectos de transparencia
+JavaScript: Lógica de la calculadora y manipulación del DOM
+📂 Estructura del proyecto
+├── index.html   # Estructura principal
+├── style.css    # Estilos y diseño
+└── script.js    # Lógica de la calculadora
+💻 Instalación y uso
 
-CSS3: Estilos avanzados, Flexbox y efectos de transparencia.
+No necesitas instalar nada adicional.
 
-JavaScript: Lógica de procesamiento de datos y manipulación del DOM.
+Clona este repositorio o descarga los archivos
+Abre index.html en tu navegador
+📖 Lógica de funcionamiento
 
-📂 Estructura del Proyecto
-Plaintext
-├── index.html   # Estructura de la calculadora
-├── style.css    # Estilos y diseño visual
-└── script.js    # Lógica de funcionamiento
-💻 Instalación y Uso
-No requiere dependencias externas ni compiladores. Para ver el proyecto en funcionamiento:
+La calculadora utiliza un sistema de control de estado:
 
-Clona este repositorio o descarga los archivos.
+totalAcumulado: Guarda el resultado de operaciones previas
+pantalla: Representa lo que el usuario está escribiendo
+ultimoOperador: Almacena la operación pendiente
 
-Abre el archivo index.html en tu navegador preferido.
+Esto permite manejar correctamente las operaciones paso a paso sin perder información.
 
-📖 Cómo funciona la lógica
-El script utiliza un sistema de buffer para manejar lo que el usuario ve en pantalla antes de procesar las operaciones matemáticas:
+📸 Captura del proyecto
+    ![Captura de pantalla de la calculadora](foto.png)
+🌐 Demo en vivo
 
-totalAcumulado: Almacena el resultado de las operaciones anteriores.
-
-pantalla: Es el valor actual (en cadena de texto) que el usuario está escribiendo.
-
-ultimoOperador: Guarda el símbolo de la operación pendiente por realizar.
-
-📸 Captura del Proyecto
-![Captura de pantalla de la calculadora](foto.png)
-
-🌐 Sitio Web
-https://calculator-app-zeta-ruddy.vercel.app/
+🔗 https://calculator-app-zeta-ruddy.vercel.app/

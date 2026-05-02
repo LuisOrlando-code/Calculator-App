@@ -45,6 +45,6 @@ pantalla: Es el valor actual (en cadena de texto) que el usuario está escribien
 ultimoOperador: Guarda el símbolo de la operación pendiente por realizar.
 
 📸 Captura del Proyecto
-![Captura de pantalla de la calculadora](foto.jpg)
+![Captura de pantalla de la calculadora](foto.png)
 
 🌐 Sitio Web
